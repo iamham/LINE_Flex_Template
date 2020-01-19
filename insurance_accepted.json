@@ -1,0 +1,68 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "กรมธรรม์ได้รับการอนุมัติ",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "บริษัทฯ ขอเรียนให้ท่านทราบว่า {บริษัท} ได้อนุมัติใบคำขอเอาประกันของท่านเรียบร้อยแล้ว และจะจัดส่งกรมธรรม์ให้ท่านต่อไป",
+        "wrap": true
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "กรมธรรม์",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "AA1234",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "รายละเอียดเพิ่มเติม",
+          "uri": "https://linecorp.com"
+        }
+      }
+    ],
+    "flex": 0
+  }
+}
