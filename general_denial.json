@@ -1,0 +1,90 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "คำร้องถูกปฏิเสธ",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "{บริษัท} ขอเรียนแจ้งให้ท่านทราบว่า {ชื่อการกระทำ/คำร้องเลขที่} ของท่านถูกปฏิเสธ",
+        "wrap": true
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "คำร้อง",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "AA1234",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 1
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "วันที่ทำการสั่งซื้อ",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "7/1/2020, 13:00",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "รายละเอียดเพิ่มเติม",
+          "uri": "https://linecorp.com"
+        }
+      }
+    ],
+    "flex": 0
+  }
+}
