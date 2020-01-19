@@ -1,0 +1,68 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ยืนยันการขอยกเลิกกรมธรรม์",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "{บริษัท} ได้รับคำร้องขอยกเลิกกรมธรรม์สำหรับกรมธรรม์เลขที่ {เลขที่} แล้ว บริษัทจะทำการพิจราณาและติดต่อกลับไปอีกครั้งหนึ่ง",
+        "wrap": true
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "กรมธรรม์",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "AA1234",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "รายละเอียดเพิ่มเติม",
+          "uri": "https://linecorp.com"
+        }
+      }
+    ],
+    "flex": 0
+  }
+}
