@@ -1,0 +1,68 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "กรมธรรม์ได้รับการยกเลิก",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "บริษัทฯ ได้ดำเนินการยกเลิกกรมธรรม์เลขที่ {กรมธรรม์เลขที่) เรียบร้อยแล้ว และจะดำเนินการระงับการเรียกเก็บเบี้ยประกันภัยตั้งแต่งวดวันที่ {วันที่เก็บเบี้ยงวดสุดท้าย} ตามที่ท่านแจ้งแล้ว",
+        "wrap": true
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "กรมธรรม์",
+                "color": "#aaaaaa",
+                "size": "sm",
+                "flex": 1
+              },
+              {
+                "type": "text",
+                "text": "AA1234",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm",
+                "flex": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "รายละเอียดเพิ่มเติม",
+          "uri": "https://linecorp.com"
+        }
+      }
+    ],
+    "flex": 0
+  }
+}
