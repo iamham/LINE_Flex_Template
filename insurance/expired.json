@@ -1,0 +1,109 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "weight": "bold",
+        "size": "xxl",
+        "margin": "md",
+        "text": "สิ้นสุดสัญญา"
+      },
+      {
+        "type": "text",
+        "text": "กรมธรรม์ของคุณได้สิ้นสุดลงแล้ว",
+        "size": "xs",
+        "color": "#aaaaaa",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xxl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "วันที่เริ่มทำประกัน",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "24/3/2020",
+                "size": "sm",
+                "color": "#111111",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "วันที่สิ้นสุดสัญญา",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "24/3/2021",
+                "size": "sm",
+                "color": "#111111",
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ท่านสามารถตรวจสอบข้อมูลกรมธรรม์ได้ที่นี่",
+            "size": "xs",
+            "color": "#aaaaaa",
+            "flex": 0,
+            "wrap": true
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "รายละเอียด",
+          "uri": "http://linecorp.com/"
+        },
+        "style": "primary",
+        "margin": "md"
+      }
+    ]
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}
