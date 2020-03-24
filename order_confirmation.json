@@ -1,0 +1,144 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ขอบคุณสำหรับคำสั่งซื้อ",
+        "weight": "bold",
+        "color": "#1DB446",
+        "size": "sm"
+      },
+      {
+        "type": "text",
+        "text": "2535",
+        "weight": "bold",
+        "size": "xxl",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "โปรดใช้เลขที่คำสั่งซื้อข้างต้นเพื่อตรวจสอบสถาการสั่งซื้อ",
+        "size": "xs",
+        "color": "#aaaaaa",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xxl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "{ITEM_1}",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "{PRICE}",
+                "size": "sm",
+                "color": "#111111",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "{ITEM_2}",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "{PRICE}",
+                "size": "sm",
+                "color": "#111111",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "{ITEM_3}",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "{PRICE}",
+                "size": "sm",
+                "color": "#111111",
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "เรากำลังดำเนินการจัดเตรียมสินค้าตามคำสั่งซื้อของคุณ และจะทำการแจ้งความคืบหน้าอีกครั้ง",
+            "size": "xs",
+            "color": "#aaaaaa",
+            "flex": 0,
+            "wrap": true
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "image",
+        "url": "https://i.pinimg.com/originals/f7/e8/c3/f7e8c32d420b6da05f807488ebf8a1e5.png",
+        "size": "3xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "รายละเอียดคำสั่งซื้อ",
+          "uri": "http://linecorp.com/"
+        },
+        "style": "primary"
+      }
+    ]
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}
