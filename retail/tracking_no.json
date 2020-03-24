@@ -1,0 +1,97 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "เลขที่การจัดส่ง",
+        "weight": "bold",
+        "color": "#1DB446",
+        "size": "sm"
+      },
+      {
+        "type": "text",
+        "text": "EN1234567TH",
+        "weight": "bold",
+        "size": "xxl",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "ท่านสามารถใช้เลขที่การจัดส่งเพื่อติดตามคำสั่งซื้อของท่านได้ที่ {TRACKING_SITE}",
+        "size": "xs",
+        "color": "#aaaaaa",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xxl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "เลขที่คำสั่งซื้อ",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "{ORDER_NUMBER}",
+                "size": "sm",
+                "color": "#111111",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "วันที่ทำการจัดส่ง",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "{SHIPPING_DATE}",
+                "size": "sm",
+                "color": "#111111",
+                "align": "end"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "ตรวจสอบสถานะการจัดส่ง",
+          "uri": "http://linecorp.com/"
+        },
+        "style": "primary",
+        "margin": "xl"
+      }
+    ]
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}
